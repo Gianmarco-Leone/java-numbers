@@ -8,4 +8,15 @@
 //    that D was one of the signals you received - based on your solution above?
 
 public class Exercise1 {
+    public static void main(String[] args) {
+//        G    F    E   D   C   B   A
+//        64   32   16  8   4   2   1
+        int ABC = 1 | 2 | 4; // 7
+        int AD =    1 | 8; // 9
+
+        int ADC = 1 | 8 | 4; // 13
+
+//        Determina se D è presente in ADC
+        System.out.println((13 & 8) == 8); // L'AND logico del segnale originale (13) AND 'D' (8) sarà uguale a 8 SE e solo SE 'D' era presente nel segnale originale.
+    }
 }
