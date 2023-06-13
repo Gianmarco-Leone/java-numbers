@@ -1,4 +1,4 @@
-// How could you format each of the inputs in the table of preview exercise and store them in String
+// How could you format each of the inputs in the table of previous exercise and store them in String
 // variables instead of just printing them out directly?
 
 public class Exercise9 {
